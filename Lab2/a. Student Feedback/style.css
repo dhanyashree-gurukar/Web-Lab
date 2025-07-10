@@ -1,0 +1,23 @@
+body {
+    margin: 20px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: #f9f9f9;
+    margin: auto;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 5px 10px;
+}

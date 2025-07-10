@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Student Feedback Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Student Feedback Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+                <label>Gender: </label><br>
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female" />
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="Other" />
+                <label for="other">Other</label>
+            </div>
+            <div class="form-group">
+                <label for="course">Course: </label><br>
+                <select id="course" name="course">
+                    <option value="">---Select Course---</option>
+                    <option value="BSc">B.Sc</option>
+                    <option value="BCom">B.Com</option>
+                    <option value="BA">B.A</option>
+                    <option value="BTech">B.Tech</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Which of the following do you like?</label><br>
+                <input type="checkbox" id="teaching" name="likes" value="Teaching">
+                <label for="teaching">Teaching</label><br>
+                <input type="checkbox" id="infrastructure" name="likes" value="Infrastructure">
+                <label for="infrastructure">Infrastructure</label><br>
+                <input type="checkbox" id="library" name="likes" value="Library">
+                <label for="library">Library</label><br>
+                <input type="checkbox" id="activities" name="likes" value="Extra-Curricular Activities">
+                <label for="activities">Extra-Curricular Activities</label>
+            </div>
+            <div class="form-group">
+                <label for="comments">Your Comments: </label><br>
+                <textarea id="comments" name="comments" placeholder="Enter your feedback here..." cols="30"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit Feedback">
+                <input type="reset" vale="Reset">
+            </div>
+        </form>
+    </body>
+</html>
