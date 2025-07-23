@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    background-color: lightgreen;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    background-color: lightgreen;
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.font-style-1 {
+    font-family: 'Arial';
+    color: darkblue;
+}
+
+.font-style-2 {
+    font-family: 'verdana';
+    color: purple;
+}
+
+.background {
+    background-image: url('https://image.shutterstock.com/image-photo/pixel-art-image-100x100-pixels-260nw-2514186215.jpg');
+    width: 100%;
+    height: 200px;
+    background-repeat: repeat;
+}
+
+a:link {
+    color: darkmagenta;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

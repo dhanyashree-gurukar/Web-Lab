@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Demonstration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>CSS Designs Demonstration</header>
+        <h2>Different Font Styles</h2>
+        <p class="font-style-1">This text uses font style 1</p>
+        <p class="font-style-2">This text uses font style 2</p>
+        <h2>Background Image Repetition</h2>
+        <div class="background"></div>
+        <h2>Link Styles</h2>
+        <p>Click the below links to see the changes</p>
+        <a href="https://wallpapercave.com/wp/wp2722928.jpg">Anchor link 1</a><br/>
+        <a href="https://tse1.mm.bing.net/th/id/OIP.jHvTOSF7924Ah63W7mozxQHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">Anchor link 2</a>
+        <h2>Element Visibility</h2>
+        <button onclick="toggleVisibility()">Toggle visibility</button>
+        <p id="visibility-demo">This Element can be toggled with the button above</p>
+        <script>
+            function toggleVisibility() {
+                var element = document.getElementById("visibility-demo");
+                if(element.style.visibility == 'hidden'){
+                    element.style.visibility = 'visible';
+                } else {
+                    element.style.visibility = 'hidden';
+                }
+            }
+        </script>
+        <footer>
+            <p>&copy; 2025 All Rights Reserved</p>
+        </footer>
+    </body>
+</html>

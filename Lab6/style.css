@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://sjce.ac.in/wp-content/uploads/2015/08/IMG_50451.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #136177;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+} 
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+h2, h3 {
+    color: white;
+}
