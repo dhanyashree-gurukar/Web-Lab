@@ -1,1 +1,28 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1> Simple Calculator</h1>
+            <label for="input1">Enter the number-1</label>
+            <input type="text" id="input1">
+            <br>
+            <label for="input2">Enter the number-2</label>
+            <input type="text" id="input2">
+            <br>
+            <button style="font-size: 25px;" onclick="add()">+</button>
+            <button style="font-size: 25px;" onclick="sub()">-</button>
+            <button style="font-size: 25px;" onclick="mul()">*</button>
+            <button style="font-size: 25px;" onclick="div()">/</button>
+            <br>
+            <div id="result" style="font-size: 20px;"></div>
+            <br>
+            <button style="background-color: #d4423d;" onclick="AC()">AC</button>
+            <button style="background-color: #70b562;" onclick="clearValues()">Clear</button>
+        </div>
+    </body>
+</html>
